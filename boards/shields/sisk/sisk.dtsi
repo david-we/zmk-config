@@ -28,8 +28,8 @@ RC(4,0)  RC(4,1)  RC(4,2)  RC(4,4)                RC(4,6) /**/      RC(4,7)     
         transform = <&default_transform>;
         kscan = <&kscan0>;
     };
-    
-    pro_micro_i2c {
+};    
+    &pro_micro_i2c {
     status = "okay";
 
     oled: ssd1306@3c {
@@ -49,6 +49,6 @@ RC(4,0)  RC(4,1)  RC(4,2)  RC(4,4)                RC(4,6) /**/      RC(4,7)     
     };
 };
 
-};
+
 
 
