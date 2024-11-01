@@ -25,4 +25,8 @@
           , <&pro_micro 19 GPIO_ACTIVE_HIGH>
           ;
     };
+    &oled {
+        segment-remap;
+        com-invdir;   
+    };
 };
